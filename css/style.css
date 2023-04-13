@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Rubik' , sans-serif;
+}
+header{
+    margin: 0 150px;
+    padding-top: 45px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li a{
+    margin-right: 40px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #4F5665;
+}
+nav ul li a:hover{
+    border-bottom: 2px solid #4F5665;
+    transition: all 0.6 ease;
+}
+.sign_in{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #0B132A;   
+    margin-right: 30px;
+}
+.sign_in:hover{
+    border-bottom: 2px solid #0B132A;
+}
+.sign_up{
+    border: 1px solid #F53838;
+    border-radius: 50px;
+    padding: 13px 45px;    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F53838;  
+}
+.sign_up:hover{
+    background-color: #F53855;
+    color: #fff;
+    transition: all 0.7s ease;
+    cursor: pointer;
+}
+.main{
+    display: flex;
+    margin: 100px auto 0 auto;
+    justify-content: space-between;
+    max-width: 1140px;
+    /* align-items: center; */
+}
+.main_title h1{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 70px;
+    color: #0B132A;
+    max-width: 555px;
+    margin-bottom: 20px;
+}
+
+.main_title p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+    margin-bottom: 50px;
+}
+.main_title a{
+    position: relative;
+    background: #F53838;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
+    padding: 17.5px 77.5px;
+}
+.main_title_hover{
+    position: absolute;
+    background: rgba(245, 56, 56, 0.35);
+    filter: blur(27px);
+    border-radius: 10px;
+    width: 211.83px;
+    height: 60px;
+    top: 26px;
+    left: 0;
+    display: none;
+}
+.main_title a:hover .main_title_hover{
+    display: block;
+}
+
+.main_bottom{
+    max-width: 1140px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    margin: 0105px auto 0 auto;
+    padding-bottom: 10px;
+}
+.main_bottom_in{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 37.5px 0;
+}
+.main_bottom_border{
+    height: 125.5px;
+    border: 2px solid #EEEFF2;
+}
+.main_bottom_item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main_bottom_img{
+    margin-right: 36.5px;
+}
+.main_bottom_text h3{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #0B132A;
+}
+.main_bottom_text p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4F5665;
+}
+.about_us{
+    width: 100%;
+    background-color: #fff;
+}
+.about_in{
+    max-width: 1140px;
+    margin: 0 auto 135.5px auto;
+}
+.about_us_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about_us_img{
+    /* flex: 1; */
+    margin-top: 96px;
+}
+.about_us_title{
+    /* flex: 1; */
+    margin-top: 150px;
+}
+.about_us_title h2{
+    margin-bottom: 20px;
+    max-width: 383.5px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    color: #0B132A;   
+}
+.about_us_title p{
+    margin-bottom: 20px;
+    max-width: 428px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+}
+.about_us_item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.about_us_item img{
+    margin-right: 10px;
+}
+.about_us_item h4{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #4F5665;
+}
